@@ -1,6 +1,7 @@
 import express, { Request, Response, urlencoded } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+import db from './database';
 
 const app: express.Application = express();
 
